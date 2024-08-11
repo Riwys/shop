@@ -1,0 +1,65 @@
+html, body {
+	$enable-grid-classes: false;
+	$enable-cssgrid: true;
+	font-family: verdana;
+	background-color: rgba(248, 249, 250, 1.0);
+
+}
+
+
+.vw-28 {
+	width: 28vw;
+}
+
+
+.vw-16 {
+	width: 16vw;
+}
+
+
+h2 {
+	letter-spacing: 0.4em;
+	padding: 1rem;
+	font-weight: 900;
+}
+
+h3 {
+	letter-spacing: 0.2em;
+	padding: 1rem;
+	font-weight: 900;
+}
+
+h5 {
+	letter-spacing: 0.08em;
+}
+
+h6 {
+	padding: 1rem;
+	letter-spacing: 0.04em;
+}
+
+
+.bg-custom-left {
+	background-color: #121212;
+}
+
+.bg-custom-right {
+	background-color: #252525;
+}
+
+a {
+	text-decoration: none;
+}
+
+.zone{
+	cursor: pointer;
+	transition: all 0.4s linear;
+}
+
+.zone:hover {
+	transform: scale(1.02);
+    -webkit-box-shadow:rgba(0,0,0,1.0) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,1.0) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,1.0) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,1.0) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
